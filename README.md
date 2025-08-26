@@ -1,60 +1,17 @@
 # Interpulsetask1
 Coffee Sales Analysis with Excel Power Query &amp; Pivot Tables – Data cleaning, merging, and visualization of customer orders to uncover sales trends, top customers, and country insights
-Coffee Sales Analysis – Excel & Power Query
-📌 Overview
 
-This project explores coffee sales data using Excel and Power Query. The objective was to clean, transform, and analyze datasets to generate insights into customer behavior, product performance, and sales trends.
+📌 Project Overview
+I analyzed a coffee sales dataset to uncover trends, customer behavior, and country-specific performance. Using Excel functions, PivotTables, PivotCharts, and slicers, I built an interactive dashboard with filtering options for roast type, loyalty card, year, and size.
 
-📂 Dataset
+🔍 Key Insights
+Arabica is the best-selling coffee type, while Robusta is steadily growing.
+Customers with loyalty cards drive most of the top sales.
+The highest-selling country prefers medium roast coffee, showing strong cultural influence.
+Larger sizes (12oz & 16oz) dominate sales volume, showing customer preference for value packs.
 
-The project uses three tables:
-
-OrdersTbl – Contains sales transactions (Order Date, Product ID, Customer ID, Quantity).
-
-ProductsTbl – Details of coffee products (Product ID, Coffee Type, Unit Price).
-
-CustomersTbl – Customer information (Customer ID, Name, Country).
-
-🔄 Data Transformation (Power Query)
-
-Loaded data tables into Power Query.
-
-Created relationships by merging OrdersTbl → ProductsTbl → CustomersTbl.
-
-Added calculated fields (e.g., Sales = Quantity × Unit Price).
-
-Cleaned and standardized data for consistency.
-
-📊 Analysis with Pivot Tables
-
-Trends of Total Sales for Each Coffee Type
-
-Top 10 Customers by Sales Contribution
-
-Total Sales by Country
-
-Quantity Ordered per Coffee Type
-
-📈 Visualization with Pivot Charts
-
-Column & Line Charts to show sales trends.
-
-Bar Charts for Top 10 Customers.
-
-Pie Charts for Country distribution.
-
-Column Charts for Coffee type quantities.
-
-🛠 Tools Used
-
-Microsoft Excel (Pivot Tables, Pivot Charts)
-
-Power Query (Data Cleaning & Merging)
-
-🎯 Results
-
-Discovered top-performing coffee types and sales patterns.
-
-Identified the most valuable customers and markets.
-
-Gained insights into product demand by quantity and region.
+✅ Recommendations
+Strengthen marketing campaigns in the top-performing country with a focus on medium roast.
+Expand loyalty programs with more perks to retain high-value customers.
+Promote larger pack sizes with bundle offers and discounts.
+Keep an eye on Robusta growth as a future opportunity.
